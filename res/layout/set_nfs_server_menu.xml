@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400sp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NFS IP ADDRESS"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/nfs_ip"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:ems="10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:text="NFS SHARE FOLDER PATH"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/nfs_share_path"
+        android:layout_width="match_parent"
+        android:layout_height="35sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOUNT LOCAL PATH"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/nfs_local_path"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+</LinearLayout>
